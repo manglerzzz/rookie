@@ -28,6 +28,7 @@ pnpm-debug.log*
 # Dependencies
 node_modules/
 vendor/
+tools/wechat-decrypt/
 
 # Build outputs
 dist/
@@ -52,6 +53,17 @@ env/
 .nuxt/
 .turbo/
 coverage/
+
+# WeChat local data, keys, and generated exports
+all_keys.json
+key_info.db
+decrypted/
+decoded_images/
+exported_chats/
+exports/
+output/
+*.delta.json
+*.plan.csv
 
 # Archives and generated binaries
 *.zip
